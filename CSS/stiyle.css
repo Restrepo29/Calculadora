@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    background: #ecf0f1;
+    
+}
+/* Restablece los estilos predeterminados del navegador para todos los elementos */
+
+header {
+    position: relative;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color:#566573;
+    font-weight: bold;
+    border-bottom: 1px solid #566573 ;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* Estilos para la sección del encabezado, centrado con un fondo azul y texto blanco */
+
+#calculadora {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 615px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: #566573;
+    box-shadow: 20px 40px 15px #2c3e50;
+    
+ 
+}
+/* Estilos para el contenedor de la calculadora, centrado con un fondo gris claro */
+
+#operaciones {
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background:white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 45px;
+    overflow: hidden;
+    height:40px
+    
+}
+/* Estilos para el área de visualización de operaciones, centrado con un fondo blanco y sombra */
+
+#calculadora ul {
+   margin-left: 5px;
+}
+/* Añade margen izquierdo a la lista desordenada dentro de la calculadora */
+
+#calculadora ul li {
+    float: left;
+    padding: 32px;
+    width: 15px;
+    text-align:center;
+    margin: 8px;
+    background: whitesmoke;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 3px 9px 5px 3px #C0C0C0;
+    font-weight: bold;
+    cursor:pointer;
+    height: 8px;
+    font-size: xx-large;
+   border: none;
+  
+   
+
+    
+}
+/* Estilos para cada botón en la calculadora, con padding, margen y sombra */
+
+#calculadora ul li:hover {
+    background: rgb(181, 210, 230);
+    color: white;
+  
+}
+/* Cambia el fondo y el color del texto cuando se pasa el ratón sobre un botón */
+
+#calculadora ul li:active {
+    background: rgb(119, 223, 226);
+    color: white;
+    
+}
+/* Cambia el fondo y el color del texto cuando se hace clic en un botón */
+
+#borrar {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 15px;
+    width: 40px;
+    height: 40px;
+    background: rgb(161, 4, 25);
+    border-radius: 10px;
+    left: 150px;
+    border: 2px solid #bbb;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+padding-top: 25px ;
+box-shadow: 3px 9px 5px 3px #C0C0C0;
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: x-large;
+}
+/* Estilos para el botón de borrar, posicionado en la parte inferior con fondo magenta */
+
+#borrar:hover {
+    background:  #943126;
+}
+/* Cambia el color de fondo cuando se pasa el ratón sobre el botón de borrar */
+
+#borrar:active {
+    background: rgb(181, 210, 230);;
+}
+/* Cambia el color de fondo cuando se hace clic en el botón de borrar */
+
+.li{
+
+    background: #266EC0  !important;
+    color: white  !important;
+    font-size:40px !important;
+}
+
+.li:hover {
+    background: rgb(181, 210, 230) !important;
+    color: white;
+}
+.li:active {
+    background: #2980b9 !important;
+}
+
+.igual{
+    background: #f39c12  !important;
+    color: white  !important;
+    font-size:40px !important;
+}
+
+.igual:hover{
+    
+    background: #f5b041  !important;
+}
